@@ -31,10 +31,12 @@
   }
 
   &.btn-white{
+    background-color: white;
     border: 1px solid $slate-350;
 
     @include hover {
-      border-color: $slate-500;
+      background-color: green;
+      border-color: $slate-900;
     }
   }
 

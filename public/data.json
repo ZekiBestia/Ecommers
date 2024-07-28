@@ -60,11 +60,21 @@
           "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
           "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
         },
-        "featuresDetails": {
-          "Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-          "Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-          "Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+      "featuresDetails": [
+        {
+          "title": "Misión",
+          "description": "Construir una empresa con calidez humana, reconocida a nivel nacional e internacional por su excelente calidad en el servicio y en sus productos."
         },
+        {
+          "title": "Visión",
+          "description": "Nuestro principal compromiso es generar abundancia en nuestros afiliados. La compañía se enfoca en su gente, en su crecimiento profesional y económico para que sientan ese placer de gozar las maravillas que les presenta la vida."
+        },
+        {
+          "title": "Valores",
+          "description": "Nuestro propósito es “QUE LA GENTE GANE”. Nuestro éxito depende de la gente, por ello queremos hacerles fácil y agradable su negocio. Mantendremos una actitud innovadora tanto en los productos, como en la forma de dirigir nuestro negocio."
+        }
+      ],
+        
         "stock": true
       },
       {
@@ -191,24 +201,24 @@
     ],
     "categories": [
       {
-        "thumb_src": "../images/category1.jpg",
-        "title": "Silk Dresses",
-        "collection": "Pre-fall"
+        "thumb_src": "../images/cosmeticos.png",
+        "title": "Labiales",
+        "collection": "Cosmeticos"
       },
       {
-        "thumb_src": "../images/category2.jpg",
-        "title": "Suits",
-        "collection": "Designers"
+        "thumb_src": "../images/cuidadocapilar.png",
+        "title": "Shampoos",
+        "collection": "Cuidado Capilar"
       },
       {
-        "thumb_src": "../images/category3.jpg",
-        "title": "Festival",
-        "collection": "Summer"
+        "thumb_src": "../images/lineainfantil.png",
+        "title": "Body Bebé",
+        "collection": "Linea Infantil"
       },
       {
-        "thumb_src": "../images/category4.jpg",
-        "title": "Showroom",
-        "collection": "Sale"
+        "thumb_src": "../images/familiababa.png",
+        "title": "Cremas y Jabones",
+        "collection": "Familia Baba de caracol"
       },
       {
         "thumb_src": "../images/product10.jpg",

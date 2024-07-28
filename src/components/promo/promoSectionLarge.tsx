@@ -4,6 +4,7 @@ interface Props {
   pageHeaderBgImg: string;
   pageHeaderMinVh: string;
   pageHeaderRadius: string;
+  profileImg:string;
 }
 
 export default function TestimonialsFade({
@@ -12,6 +13,7 @@ export default function TestimonialsFade({
   pageHeaderBgImg,
   pageHeaderMinVh,
   pageHeaderRadius,
+  profileImg,
 }: Props) {
 
   const styles = {
@@ -32,7 +34,12 @@ export default function TestimonialsFade({
               <div className="col-lg-8 col-sm-9 text-center mx-auto">
                 <h1 className="text-white mb-4">{title}</h1>
                 <p className="lead text-white mb-sm-6 mb-4">{full_description}</p>
-                <button className="btn btn-white btn-lg">Explore New Collection</button>
+                {profileImg && (
+                  <div className="rounded-circle mx-auto d-block my-4" style={{ width: '330px', height: '330px', objectFit: 'cover' }}>
+                    <img src={profileImg} alt="Profile" className="w-100 h-100 rounded-circle" />
+                  </div>
+                )}
+                <button className="btn btn-white btn-lg">Contactame</button>
               </div>
             </div>
           </div>
