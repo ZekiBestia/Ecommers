@@ -40,7 +40,7 @@
 
   .card-footer {
     padding: $card-footer-padding;
-    background-color: transparent;
+    background-color: blue($color: #4e3183);
   }
 }
 
@@ -59,6 +59,59 @@
     font-weight: $font-weight-normal;
   }
 }
+// Definimos las animaciones
+@keyframes cardHover {
+  0% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes cardHoverReverse {
+  0% {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+// Aplicamos las animaciones a las tarjetas
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    animation: cardHover 0.3s forwards;
+  }
+
+  &:not(:hover) {
+    animation: cardHoverReverse 0.3s forwards;
+  }
+
+  .card-body {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
+    }
+  }
+
+  .card-title {
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #ff5733; // Cambia este color a tu preferencia
+    }
+  }
+}
+
 
 @import 'cards/card-background';
 @import 'cards/card-product';

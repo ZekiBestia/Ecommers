@@ -1,0 +1,91 @@
+// Variables para los colores
+$facebook-color: #3b5998; // Azul de Facebook
+$whatsapp-color: #25D366; // Verde de WhatsApp
+$instagram-color: #C13584; // Rosa de Instagram
+$hover-bg-color: #f0f0f0; // Fondo al pasar el mouse
+$text-color: #333333; // Color de texto por defecto
+$link-color: #000205; // Color personalizado de los enlaces
+$link-hover-color: #176fda; // Color de los enlaces al pasar el mouse
+
+// Estilos personalizados para los enlaces
+.custom-link {
+  color: $link-color;
+  transition: color 0.8s ease, transform 0.8s ease; // Suaviza la transición del color y el escalado
+
+  &:hover {
+    color: $link-hover-color;
+    transform: scale(1.15); // Escalado más sutil para un efecto de hover más suave
+  }
+}
+
+// Estilos para los elementos del dropdown
+.dropdown-item {
+  color: $text-color;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  
+  &:hover {
+    background-color: $hover-bg-color;
+  }
+}
+
+// Estilos para los íconos y elementos del dropdown
+.dropdown-item-face:hover {
+  color: $facebook-color;
+}
+
+.dropdown-item-what:hover {
+  color: $whatsapp-color;
+}
+
+.dropdown-item-insta:hover {
+  color: $instagram-color;
+}
+
+
+// Opcional: Color específico para cada ícono
+.fa-facebook {
+  color: $facebook-color;
+}
+
+.fa-whatsapp {
+  color: $whatsapp-color;
+}
+
+.fa-instagram {
+  color: $instagram-color;
+}
+
+// Espaciado entre los íconos y el texto
+.fa-facebook, .fa-whatsapp, .fa-instagram {
+  margin-right: 8.5px; // Espaciado entre el ícono y el texto
+  font-size: 20px; // Tamaño de los íconos
+  transition: color 0.8s ease, transform 0.8s ease; // Suaviza la transición del color y el escalado
+
+}
+ // Variables de color (ajusta según tus necesidades)
+$primary-color: #000205;
+$link-hover-color: #2FB5E3;
+
+// Estilos combinados para navbar-brand, font-weight-bolder, ms-lg-0 y custom-link
+.navbar-brand {
+  // Aplicar color primario
+  color: $primary-color;
+}
+
+.font-weight-bolder {
+  font-weight: bolder; // Aplicar negrita al texto
+}
+
+.ms-lg-0 {
+  margin-left: 0 !important; // Aplicar margen izquierdo 0 en pantallas grandes
+}
+
+.custom-link {
+  color: $primary-color; // Color del texto del enlace
+  transition: color 0.4s ease, transform 0.4s ease; // Transición suave para color y escalado
+
+  &:hover {
+    color: $link-hover-color; // Color del texto al pasar el mouse
+    transform: scale(1.05); // Efecto de escalado al pasar el mouse
+  }
+}

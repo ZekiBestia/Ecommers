@@ -28,7 +28,7 @@
           "blue", 
           "green"
         ],
-        "title": "Basic Starter Pack",
+        "title": "Unete a nosotros",
         "price": 399,
         "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
         "full_description": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out.",
@@ -199,43 +199,50 @@
         "stock": false
       }
     ],
-    "categories": [
-      {
-        "thumb_src": "../images/cosmeticos.png",
-        "title": "Labiales",
-        "collection": "Cosmeticos"
-      },
-      {
-        "thumb_src": "../images/cuidadocapilar.png",
-        "title": "Shampoos",
-        "collection": "Cuidado Capilar"
-      },
-      {
-        "thumb_src": "../images/lineainfantil.png",
-        "title": "Body Bebé",
-        "collection": "Linea Infantil"
-      },
-      {
-        "thumb_src": "../images/familiababa.png",
-        "title": "Cremas y Jabones",
-        "collection": "Familia Baba de caracol"
-      },
-      {
-        "thumb_src": "../images/product10.jpg",
-        "title": "Living Sofas",
-        "collection": "Interior Design"
-      },
-      {
-        "thumb_src": "../images/category5.jpg",
-        "title": "Chairs by Designers",
-        "collection": "Sale"
-      },
-      {
-        "thumb_src": "/images/product9.jpg",
-        "title": "Home care",
-        "collection": "Products"
-      }
-    ],
+   "categories": [
+    {
+      "thumb_src": "../images/cosmeticos.png",
+      "title": "Labiales",
+      "collection": "Cosmeticos",
+      "link": "https://shelonabel.net//eCommerce.php?a=mltvoimlzusomlwnb2xy3c2184&b=6fi853c317#nbb"
+    },
+    {
+      "thumb_src": "../images/cuidadocapilar.png",
+      "title": "Shampoos",
+      "collection": "Cuidado Capilar",
+      "link": "https://shelonabel.net//eCommerce.php?a=mltvoimlzusomlwnb2xy3c2184&b=6fi853c317#nbb"
+    },
+    {
+      "thumb_src": "../images/lineainfantil.png",
+      "title": "Body Bebé",
+      "collection": "Linea Infantil",
+      "link": "https://shelonabel.net//eCommerce.php?a=mltvoimlzusomlwnb2xy3c2184&b=6fi853c317#nbb"
+    },
+    {
+      "thumb_src": "../images/familiababa.png",
+      "title": "Cremas y Jabones",
+      "collection": "Familia Baba de caracol",
+      "link": "https://shelonabel.net//eCommerce.php?a=mltvoimlzusomlwnb2xy3c2184&b=6fi853c317#nbb"
+    },
+    {
+      "thumb_src": "../images/product10.jpg",
+      "title": "Living Sofas",
+      "collection": "Interior Design",
+      "link": "https://example.com/interior-design/living-sofas"
+    },
+    {
+      "thumb_src": "../images/category5.jpg",
+      "title": "Chairs by Designers",
+      "collection": "Sale",
+      "link": "https://example.com/sale/chairs-by-designers"
+    },
+    {
+      "thumb_src": "/images/product9.jpg",
+      "title": "Home care",
+      "collection": "Products",
+      "link": "https://example.com/products/home-care"
+    }
+  ],
     "reviews": [
       {
         "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
@@ -285,92 +292,5 @@
         "comment": "Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible to get a pure thought out.",
         "productID": "01"
       }
-    ],
-    "orders": [
-      {
-        "orderNumber": 23791,
-        "products": [
-          {
-            "id": "01",
-            "status": "Processed",
-            "quantity": 1,
-            "dateModified": "March 23, 2023"
-          },
-          {
-            "id": "02",
-            "status": "Delivered",
-            "quantity": 3,
-            "dateModified": "June 28, 2023"
-          }
-        ],
-        "payment": {
-          "cardNumber": "0042",
-          "expiringDate": "06/26"
-        },
-        "date": "March 23, 2023",
-        "address": "362 Ridgewood, Alaska 99669, USA",
-        "email": "michael@email.com",
-        "phoneNumber": "(808) 791-6935"
-      },
-      {
-        "orderNumber": "WB2341",
-        "products": [
-          {
-            "id": "03",
-            "status": "Order Placed",
-            "quantity": 1,
-            "dateModified": "March 23, 2023"
-          }
-        ],
-        "payment": {
-          "cardNumber": "4119",
-          "expiringDate": "06/26"
-        },
-        "date": "March 28, 2023",
-        "address": "362 Ridgewood Dr, Soldotna, Alaska 99669, USA",
-        "email": "john@email.com",
-        "phoneNumber": "(307) 612-7721"
-      },
-      {
-        "orderNumber": "010110",
-        "products": [
-          {
-            "id": "04",
-            "status": "Order Placed",
-            "quantity": 1,
-            "dateModified": "Sep 09, 2023"
-          },
-          {
-            "id": "01",
-            "status": "Shipped",
-            "quantity": 1,
-            "dateModified": "Sep 12, 2023"
-          },
-          {
-            "id": "02",
-            "status": "Delivered",
-            "quantity": 1,
-            "dateModified": "Sep 13, 2023"
-          }
-        ],
-        "payment": {
-          "cardNumber": "5290",
-          "expiringDate": "11/27"
-        },
-        "date": "Sep 07, 2023",
-        "address": "362 Ridgewood, Alaska 99669, USA",
-        "email": "doe@email.com",
-        "phoneNumber": "(307) 682-8835"
-      }
-    ],
-    "shoppingCart": [
-      "01", 
-      "02", 
-      "03"
-    ],
-    "shoppingCart2": [ 
-      "02", 
-      "03",
-      "04"
     ]
   }

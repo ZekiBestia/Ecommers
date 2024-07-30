@@ -1,0 +1,45 @@
+// Variables (opcional, puedes definir colores y otras propiedades aquí)
+$primary-color: #ff5733;
+$hover-color: #c70039;
+$dropdown-bg: #f0f0f0;
+$dropdown-text: #333;
+$icon-size: 20px; // Tamaño de los íconos
+
+// Estilos personalizados
+.custom-link {
+  color: $primary-color; // Color personalizado para el texto
+  transition: color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    color: $hover-color; // Color al pasar el mouse
+    transform: scale(1.1); // Efecto de aumento al pasar el mouse
+  }
+}
+
+// Estilos para los elementos del dropdown
+.dropdown-item {
+  color: $dropdown-text; // Color personalizado para los elementos del dropdown
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: $dropdown-bg; // Fondo al pasar el mouse sobre los elementos del dropdown
+    color: $primary-color; // Color del texto al pasar el mouse sobre los elementos del dropdown
+  }
+}
+
+// Estilos para los íconos
+.dropdown-item {
+  display: flex;
+  align-items: center;
+
+  .fa-facebook, .fa-whatsapp, .fa-instagram {
+    margin-right: 8px; // Espaciado entre el ícono y el texto
+    font-size: $icon-size; // Tamaño de los íconos
+    color: $primary-color; // Color de los íconos
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $hover-color; // Color al pasar el mouse sobre los íconos
+    }
+  }
+}
