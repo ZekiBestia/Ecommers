@@ -19,7 +19,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link text-dark dropdown-toggle font-weight-bold d-flex align-items-center me-2 " aria-current="page" id="pagesExample" data-bs-toggle="dropdown" aria-expanded="false">
-                Pages
+                Contacto
               </a>
               <ul className="dropdown-menu" aria-labelledby="pagesExample">
                 <li><a className="dropdown-item" href="/astro-ecommerce/landing/">Landing Page</a></li>
