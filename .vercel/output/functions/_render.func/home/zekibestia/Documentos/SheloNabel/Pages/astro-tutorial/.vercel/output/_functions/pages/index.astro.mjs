@@ -3,6 +3,7 @@ import 'kleur/colors';
 import 'clsx';
 /* empty css                                 */
 import { jsx, Fragment, jsxs } from 'react/jsx-runtime';
+import 'react';
 export { renderers } from '../renderers.mjs';
 
 var __freeze = Object.freeze;
@@ -473,25 +474,73 @@ function ProductOverview({
 
 const Navbar = () => {
   return /* @__PURE__ */ jsx("nav", { className: "navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-sticky py-3 start-0 end-0", children: /* @__PURE__ */ jsxs("div", { className: "container px-1", children: [
-    /* @__PURE__ */ jsx("a", { className: "navbar-brand font-weight-bolder ms-lg-0 ", href: "https://www.creative-tim.com/astro", children: "Cris Cara" }),
+    /* @__PURE__ */ jsx("a", { className: "navbar-brand font-weight-bolder ms-lg-0 custom-link  ", href: "https://www.creative-tim.com/astro", children: "Vida plena con Cris Cara" }),
     /* @__PURE__ */ jsx("button", { className: "navbar-toggler shadow-none ms-2", type: "button", "data-bs-toggle": "collapse", "data-bs-target": "#navigation", "aria-controls": "navigation", "aria-expanded": "false", "aria-label": "Toggle navigation", children: /* @__PURE__ */ jsxs("span", { className: "navbar-toggler-icon mt-2", children: [
       /* @__PURE__ */ jsx("span", { className: "navbar-toggler-bar bar1" }),
       /* @__PURE__ */ jsx("span", { className: "navbar-toggler-bar bar2" }),
       /* @__PURE__ */ jsx("span", { className: "navbar-toggler-bar bar3" })
     ] }) }),
     /* @__PURE__ */ jsx("div", { className: "collapse navbar-collapse", id: "navigation", children: /* @__PURE__ */ jsxs("ul", { className: "navbar-nav ms-auto", children: [
-      /* @__PURE__ */ jsx("li", { className: "nav-item", children: /* @__PURE__ */ jsx("a", { className: "nav-link text-dark font-weight-bold d-flex align-items-center me-2 ", "aria-current": "page", href: "/astro-ecommerce/", children: "Catálogo" }) }),
+      /* @__PURE__ */ jsx("li", { className: "nav-item", children: /* @__PURE__ */ jsx("a", { className: "nav-link text-dark font-weight-bold d-flex align-items-center me-2 custom-link", "aria-current": "page", href: "https://drive.google.com/uc?export=download&id=1O9O1XapjCOH6E2UGGOEzop55R3iM22-0", children: "Catálogo" }) }),
       /* @__PURE__ */ jsxs("li", { className: "nav-item dropdown", children: [
-        /* @__PURE__ */ jsx("a", { className: "nav-link text-dark dropdown-toggle font-weight-bold d-flex align-items-center me-2 ", "aria-current": "page", id: "pagesExample", "data-bs-toggle": "dropdown", "aria-expanded": "false", children: "Pages" }),
+        /* @__PURE__ */ jsx(
+          "a",
+          {
+            className: "nav-link text-dark dropdown-toggle font-weight-bold align-items-center custom-link",
+            "aria-current": "page",
+            id: "pagesExample",
+            "data-bs-toggle": "dropdown",
+            "aria-expanded": "false",
+            children: "Contacto"
+          }
+        ),
         /* @__PURE__ */ jsxs("ul", { className: "dropdown-menu", "aria-labelledby": "pagesExample", children: [
-          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsx("a", { className: "dropdown-item", href: "/astro-ecommerce/landing/", children: "Landing Page" }) }),
-          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsx("a", { className: "dropdown-item", href: "/astro-ecommerce/product/", children: "Product Page" }) }),
-          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsx("a", { className: "dropdown-item", href: "/astro-ecommerce/shopping-cart/", children: "Shopping Cart" }) })
+          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsxs(
+            "a",
+            {
+              "aria-current": "page",
+              href: "https://www.facebook.com/SheloNabelAllOverTheWorld/",
+              rel: "nofollow",
+              target: "_blank",
+              className: "dropdown-item-face",
+              children: [
+                /* @__PURE__ */ jsx("i", { className: "fa-brands fa-facebook" }),
+                " Facebook"
+              ]
+            }
+          ) }),
+          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsxs(
+            "a",
+            {
+              "aria-current": "page",
+              href: "https://discord.com/invite/TGZqBvZB",
+              rel: "nofollow",
+              target: "_blank",
+              className: "dropdown-item-what",
+              children: [
+                /* @__PURE__ */ jsx("i", { className: "fa-brands fa-whatsapp" }),
+                " WhatsApp"
+              ]
+            }
+          ) }),
+          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsxs(
+            "a",
+            {
+              "aria-current": "page",
+              href: "https://www.instagram.com/shelonabelmexicodi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+              rel: "nofollow",
+              target: "_blank",
+              className: "dropdown-item-insta hover-fa",
+              children: [
+                /* @__PURE__ */ jsx("i", { className: "fa-brands fa-instagram" }),
+                " Instagram"
+              ]
+            }
+          ) })
         ] })
       ] }),
-      /* @__PURE__ */ jsx("li", { className: "nav-item", children: /* @__PURE__ */ jsx("a", { className: "nav-link text-dark font-weight-bold d-flex align-items-center me-2 ", "aria-current": "page", href: "https://www.creative-tim.com/learning-lab/astro/overview/astro-ecommerce", children: "Comprar" }) }),
-      /* @__PURE__ */ jsx("li", { className: "nav-item", children: /* @__PURE__ */ jsx("a", { className: "nav-link text-dark font-weight-bold d-flex align-items-center me-2 ", "aria-current": "page", href: "https://github.com/creativetimofficial/astro-ecommerce", children: /* @__PURE__ */ jsx("i", { className: "fab text-lg fa-github" }) }) }),
-      /* @__PURE__ */ jsx("li", { className: "nav-item", children: /* @__PURE__ */ jsx("a", { className: "nav-link text-dark font-weight-bold d-flex align-items-center me-2 ", "aria-current": "page", href: "https://discord.com/invite/TGZqBvZB", rel: "nofollow", target: "_blank", children: /* @__PURE__ */ jsx("i", { className: "fab text-lg fa-discord" }) }) })
+      /* @__PURE__ */ jsx("li", { className: "nav-item", children: /* @__PURE__ */ jsx("a", { className: "nav-link text-dark font-weight-bold d-flex align-items-center me-2 custom-link ", "aria-current": "page", href: "#shelo", children: "Conócenos" }) }),
+      /* @__PURE__ */ jsx("li", { className: "nav-item", children: /* @__PURE__ */ jsx("a", { className: "nav-link text-dark font-weight-bold d-flex align-items-center me-2 custom-link ", "aria-current": "page", href: "#afiliar", children: "Únete a nosotros" }) })
     ] }) })
   ] }) });
 };
